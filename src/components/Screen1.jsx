@@ -1,4 +1,5 @@
 import './Screen1.css'
+import usImg from '../assets/us.png'
 
 function Screen1() {
   return (
@@ -19,7 +20,7 @@ function Screen1() {
 
       <div className="couple-wrap">
         <img
-          src="/wedding-couple.png"
+          src={usImg}
           alt="The Happy Couple"
           className="couple-img"
           draggable="false"
